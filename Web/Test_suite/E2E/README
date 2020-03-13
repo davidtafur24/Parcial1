@@ -1,0 +1,8 @@
+En esta carpeta se encuentran los scripts para las pruebas E2E en tres programas diferentes:
+
+- Cypress
+- Puppeteer (headful y headless)
+- Playwright (headful y headless)
+
+Además en el caso de Playwright se utilizó el browser Mozilla con el fin de validar la funcionalidad de la prueba en diferentes browsers
+(Chrome y Mozilla). 
