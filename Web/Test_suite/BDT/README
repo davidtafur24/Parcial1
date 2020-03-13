@@ -5,4 +5,4 @@ README para pruebas BDT
   
 - Archivo "index. js" debe ir en la carpeta step-definition (/features/step-definition/index.js).
 
-- Archivo "wdio.conf" debe ir en la raiz del archivo. 
+- Archivo "wdio.conf.js" debe ir en la raiz del archivo. 
