@@ -1,0 +1,8 @@
+README para pruebas BDT
+
+- Archivos ".feature" deben ir dentro de la carpeta features encontarada en la raíz del archivo.
+  - No se recomienda correr todos los archivos al tiempo sino por separado.
+  
+- Archivo "index. js" debe ir en la carpeta step-definition (/features/step-definition/index.js).
+
+- Archivo "wdio.conf" debe ir en la raiz del archivo. 
