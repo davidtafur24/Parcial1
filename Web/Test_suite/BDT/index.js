@@ -104,7 +104,7 @@ Then('a message with {string} appears', result => {
 //-----------------------Creating a new task on specific day-----------------------//
 
 When('I click on next 7 days', () => {
-  $('li[data-track="navigation|next_7_days"]').waitForExist(10000);
+  browser.pause(5000)
   var left_menu = $('.left_menu');
   left_menu.$('li[data-track="navigation|next_7_days"]').click();
 
@@ -126,8 +126,8 @@ Then('new task shuld exist', () => {
 
 When('I click on add a project', () => {
 
+  browser.pause(5000)
   var projectManager = $('.left_list_manager_holder');
-  projectManager.waitForDisplayed(10000);
   projectManager.$('a[class="action sel_add_project"]').waitForDisplayed(10000);
   projectManager.$('a[class="action sel_add_project"]').click();
 
